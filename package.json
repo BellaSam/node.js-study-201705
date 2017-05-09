@@ -1,0 +1,47 @@
+{
+  "name": "study05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/qili88/forecast-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.13.3",
+    "express": "^4.14.0",
+    "firebase": "~3.0.4",
+    "google-auth-library": "^0.9.10",
+    "googleapis": "^15.0.0",
+    "lodash": "~4.16.2",
+    "moment": "^2.14.1",
+    "nodemailer": "4.0.1",
+    "nodemon": "^1.10.0",
+    "pg": "6.1.0",
+    "pg-promise": "^3.2.3",
+    "webshot": "*",
+    "node-cache": "^4.1.1",
+    "express-validator": "3.1.2",
+    "password-generator":"2.1.0",
+    "nodemailer-smtp-transport":"2.7.4",
+    "cookie-session":"2.0.0-beta.1",
+    "email-templates":"2.5.6",
+    "path":"0.12.7",
+    "ejs":"2.5.6",
+    "cheerio":"0.22.0"
+  },
+  "engines": {
+    "node": "5.10.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.3"
+  }
+}
