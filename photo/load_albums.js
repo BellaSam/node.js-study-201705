@@ -1,3 +1,4 @@
+//第一个JSON服务器
 var http = require('http');
 var fs = require('fs');
 
@@ -31,3 +32,6 @@ function handle_incoming_request(req,res){
 
 var server = http.createServer(handle_incoming_request);
 server.listen(3000);
+
+// error res : {"errno":-2,"code":"ENOENT","syscall":"scandir","path":"pic"}
+// suc res : {"error":null,"data":{"albums":["load_albums.js","simple_server.js"]}}
