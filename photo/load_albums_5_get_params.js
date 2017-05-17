@@ -1,4 +1,12 @@
-//JSON服务器 - 解析和处理请求参数
+//JSON服务器 - 解析和处理请求参数, url模块，url.parse(req.url,true)
+//第二个参数true，这个参数告诉url.parse函数解析查询字符串，并生成包含GET 参数的对象。如果我们使用url.parse解析前面的URL并打印结果，会 看到如下结果:
+// {
+// 	search:'?page=2&page_size=2',
+// 	query:{page:'2',page_size:'2'},
+// 	pathname:'/pic/pic1.json',
+// 	path:'/pic/pic1.json?page=2&page_size=2',
+// 	href:'/pic/pic1.json?page=2&page_size=2'
+// }
 //1)修改handle_incoming_request函数，让它能够正确解析 URL。
 //2)解析查询字符串，获得page和page_size对应的值。
 //3)修改load_album函数以支持这些参数。
